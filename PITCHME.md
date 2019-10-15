@@ -42,6 +42,8 @@ nvm use && npm i && npm run build && npm test && npm run lint
 
 ---
 
+Coding engage!
+
 ![Mash keys](assets/mash-keys.gif)
 
 ---
@@ -285,29 +287,154 @@ git push origin master
 
 ---
 
-@snap[north span-80]
-#### Grab a snack
-@snapend
+Snack time!
 
 ![Snack](assets/snack.gif)
 
 ---
 
-@snap[north span-80]
-#### Meanwhile...
+@snap[north span-100]
+Meanwhile, our code is built, tested, and deployed.
 @snapend
 
 ![Deployment](assets/deployment.png)
 
 ---
 
+We receive a Slack message, staging deployment successful!
+
 ![Successful Deployment](assets/deploy-success.png)
 
 ---
+
+Signal QA the feature is ready for validation.
 
 ![Drag to QA](assets/drag-to-qa.gif)
 
 ---
 
+Give QA a heads up that this feature is ready.
+
 ![QA Request](assets/qa-req-verification.png)
 
+---
+
+QA pulls the task for verification.
+
+![QA Task](assets/qa-task.png)
+
+---
+
+Stage release in Slack
+
+![Stage](assets/stage_release.png)
+
+---
+
+QA requests changes.
+
+![Copy Change](assets/qa-requests-change.png)
+
+---
+
+Dev feeling lazy after that post-feature snack...
+
+![Edit Copy on Github](assets/edit-github-directly.png)
+
+---
+
+Build failure!
+
+![Build Failure](assets/build-failed.png)
+
+---
+
+Pull repo, fix error, push changes.
+
+```bash
+git pull origin master
+nvm use && npm i && npm run build && npm run lint && npm test
+```
+
+<hr />
+
+```typescript
+// DERP.
+// const paymentMessage = 'Pay with Credit Card"
+const paymentMessage = 'Pay with Credit Card'
+```
+
+<hr />
+
+```bash
+npm run build && npm run lint && npm test
+git add .
+git commit -m 'Fixed my malfunction.  What is wrong with me?'
+git push origin master
+```
+
+---
+
+Build Fixed.
+
+![Build Fixed](assets/build-succeeded.png)
+
+---
+
+Signal QA that the Copy Change has been made.
+
+![Message Copy Changed](assets/msg-copy-change.png)
+
+---
+
+QA Reviews the change, approves.
+
+![Updated UI](assets/ui-updated.png)
+
+---
+
+QA "prereleases" feature.
+
+![Prerelease](assets/prerelease.png)
+
+---
+
+QA break time.
+
+![Video Games](assets/video-games.gif)
+
+---
+
+Code pushed to production (but off)
+
+![Prod Deployment](assets/prod-deployment.png)
+
+---
+
+QA Verifies Feature
+
+![Verified](assets/drag-to-verified.gif)
+
+---
+
+Sometime in the near future...
+
+![Time passes](assets/time-passes.gif)
+
+---
+
+QA Releases Feature
+
+![Release](assets/release.png)
+
+---
+
+NO CODE DEPLOYMENT NECESSARY!!!!
+
+FEATURE IS ENABLED FOR ALL USERS.
+
+---
+
+QA Closes Feature (Released!)
+
+![Verified](assets/drag-to-released.gif)
