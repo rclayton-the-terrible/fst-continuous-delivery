@@ -583,3 +583,9 @@ Note:
 ---
 
 ### Questions?
+
+---
+
+You can find this presentation online:
+https://gitpitch.com/rclayton-the-terrible/fst-continuous-delivery/master
+
